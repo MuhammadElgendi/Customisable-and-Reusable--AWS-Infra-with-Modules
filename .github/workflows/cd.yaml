@@ -14,7 +14,7 @@ jobs:
     - name: Set up kubectl
       uses: azure/setup-kubectl@v1
       with:
-        version: 'v1.21.0'  # Match your cluster version
+        version: 'v1.21.0'  # Ensure this matches your cluster's Kubernetes version
 
     - name: Create .kube directory
       run: |
